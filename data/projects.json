@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Responsive Portfolio Website",
             "description": "A personal portfolio website built using HTML, CSS, JavaScript, and React. Features dynamic project gallery, smooth transitions, and integrated contact form.",
-            "thumbnail": "assets/images/portfolio-website.jpg",
+            "thumbnail": "assets/web1.png",
             "tags": ["Web"],
             "tools": ["React", "CSS3", "JavaScript"],
             "features": [
