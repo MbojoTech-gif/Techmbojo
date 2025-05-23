@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Designer & Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tech Mbojo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-section">
+            <div class="projects-intro">
+                <h1 data-animate="fade-in">My Projects</h1>
+                <p class="category-description" id="category-description" data-animate="slide-up">
+                    From Interactive Websites to Stunning Graphic Designs - A showcase of work spanning website development, 
+                    visual design, and branding. Each project represents a fusion of art and functionality, 
+                    crafted to engage and deliver seamless user experiences.
+                </p>
+            </div>
+
+            <div class="project-filters" data-animate="slide-up">
+                <button class="filter-btn active" data-filter="all" data-description="From Interactive Websites to Stunning Graphic Designs - A showcase of work spanning website development, visual design, and branding.">All</button>
+                <button class="filter-btn" data-filter="Web" data-description="Responsive and dynamic websites built with modern technologies, focusing on user experience and performance.">Web</button>
+                <button class="filter-btn" data-filter="Design" data-description="Creative visual designs ranging from posters to marketing materials, each telling a unique story.">Design</button>
+            </div>
+
+            <div class="projects-grid" id="projects-grid" data-animate="fade-in">
+                <!-- Projects will be loaded dynamically from projects.json -->
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div class="project-modal" id="project-modal">
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+                <div class="modal-body">
+                    <!-- Modal content will be inserted dynamically -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tech Mbojo. All rights reserved.</p>
+        <div class="footer-branding">
+            Powered by <span>AsolaSMART-Tech</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/scroll-animations.js"></script>
+</body>
+</html>

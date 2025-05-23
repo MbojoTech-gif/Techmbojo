@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Designer & Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tech Mbojo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1 data-animate="fade-in">Get in Touch</h1>
+            <p class="contact-intro" data-animate="slide-up">Have a project in mind? Let's talk about it.</p>
+            
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form" data-animate="slide-in">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+
+                <div class="contact-info" data-animate="slide-in">
+                    <h2>Connect With Me</h2>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+                            <img src="assets/icons/github.svg" alt="GitHub">
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">
+                            <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+                            LinkedIn
+                        </a>
+                        <a href="https://behance.net/yourusername" target="_blank" rel="noopener">
+                            <img src="assets/icons/behance.svg" alt="Behance">
+                            Behance
+                        </a>
+                        <a href="https://dribbble.com/yourusername" target="_blank" rel="noopener">
+                            <img src="assets/icons/dribbble.svg" alt="Dribbble">
+                            Dribbble
+                        </a>
+                    </div>
+                    
+                    <div class="direct-contact">
+                        <p><strong>Email:</strong> <a href="mailto:techmbojo@example.com">techmbojo@ast.com</a></p>
+                        <p><strong>Location:</strong> Nairobi, Kenya </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tech Mbojo. All rights reserved.</p>
+        <div class="footer-branding">
+            Powered by <span>AsolaSMART-Tech</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/scroll-animations.js"></script>
+</body>
+</html>

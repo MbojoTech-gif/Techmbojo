@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Responsive Portfolio Website",
+            "description": "A personal portfolio website built using HTML, CSS, JavaScript, and React. Features dynamic project gallery, smooth transitions, and integrated contact form.",
+            "thumbnail": "assets/images/portfolio-website.jpg",
+            "tags": ["Web"],
+            "tools": ["React", "CSS3", "JavaScript"],
+            "features": [
+                "Dynamic project gallery",
+                "Smooth transitions and animations",
+                "Contact form with email backend"
+            ],
+            "liveUrl": "https://techmbojo.vercel.app/",
+            "githubUrl": "https://github.com/MbojoTech-gif/Techmbojo",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "Mbojo Trackworks Poster",
+            "description": "Full brand identity for Mbojo Trackworks, including sustainable packaging design.",
+            "thumbnail": "assets/mbojo trackworks.png",
+            "tags": ["Branding"],
+            "tools": ["Photoshop"],
+           "deliverables": [
+                "Print and digital poster variants",
+                "Social media graphics package",
+                "High-resolution print assets"
+            ],
+            "liveUrl": "https://www.freelancermap.de/profil/simon-oyunge",
+            "featured": true
+        }
+    ]
+}
