@@ -31,10 +31,8 @@ portfolio/
 ├── data/
 │   └── projects.json    # Project data
 │
-└── assets/             # Images, icons, and other media
-    ├── images/
+└── assets/             # icons, and other media
     ├── icons/
-    └── fonts/
 ```
 
 ## Setup
